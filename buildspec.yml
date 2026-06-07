@@ -9,6 +9,8 @@ phases:
       - chmod +x mvnw
       - ./mvnw clean package -DskipTests
       - cp target/gestion-pedidos-0.0.1-SNAPSHOT.jar gestion-pedidos-0.0.1-SNAPSHOT.jar
+      - ls -la
+      - cat Procfile
 
 artifacts:
   files:
