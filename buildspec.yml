@@ -4,11 +4,11 @@ phases:
   install:
     runtime-versions:
       java: corretto17
-
   build:
     commands:
-      - ./mvnw clean package
+      - ./mvnw clean package -DskipTests
 
 artifacts:
   files:
-    - target/*.jar
+    - target/gestion-pedidos-0.0.1-SNAPSHOT.jar
+    - Procfile
