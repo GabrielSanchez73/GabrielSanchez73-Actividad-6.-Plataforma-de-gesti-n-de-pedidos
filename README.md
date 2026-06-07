@@ -6,4 +6,4 @@ test2=perfecto
 
 test3=perfecto
 
-test4=pperfecto
+test4=perfecto
