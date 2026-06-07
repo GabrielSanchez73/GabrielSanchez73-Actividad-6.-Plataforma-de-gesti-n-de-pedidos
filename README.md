@@ -3,3 +3,5 @@ este readme al ser editado dispara el pipeline automáticamente al tener DetectC
 test1=resultado perfecto
 
 test2=perfecto
+
+test3
